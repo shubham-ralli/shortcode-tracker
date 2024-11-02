@@ -15,6 +15,7 @@ jQuery(document).ready(function($) {
             data: {
                 action: 'sf_get_shortcode_usage',
                 shortcode: shortcode,
+                
                 posttype: posttype, // Send the selected post type
                 poststatus: poststatus // Send the selected post status
             },
